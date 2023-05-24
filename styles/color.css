@@ -1,0 +1,23 @@
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.bg-grey-2 {
+    background-color: var(--color-grey-2);
+}
+
+.bg-grey-6 {
+    background-color: var(--color-grey-6);
+}
+
+.txt-grey-6 {
+    color: var(--color-grey-6);
+}
+
+.txt-grey-2 {
+    color: var(--color-grey-2);
+}
+
+.txt-primary {
+    color: var(--color-primary);
+}

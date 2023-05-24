@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/globalStyles.css" />
+    <link rel="stylesheet" href="/styles/buttons.css" />
+    <link rel="stylesheet" href="/styles/flex.css" />
+    <link rel="stylesheet" href="/styles/sizes.css" />
+    <link rel="stylesheet" href="/styles/color.css" />
+    <link rel="stylesheet" href="/styles/inputs.css" />
+    <link rel="stylesheet" href="/styles/text.css" />
+    <link rel="stylesheet" href="/styles/modal.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <main id="main-content">
+      <section class="flex align-center justify-center bg-grey-2">
+        <div class="flex flex-row justify-around width-box">
+          <div
+            class="flex flex-column justify-center width-100 bg-primary gap-20 pd-40 rd-left"
+          >
+            <div class="flex flex-row align-center gap-10">
+              <img
+                src="../../src/music-svgrepo-com.svg"
+                alt="Logo da Empresa"
+                class="img-logo"
+              />
+              <h1 class="txt-grey-6 title-1">MusicPeak</h1>
+            </div>
+            <p class="txt-grey-6 txt-gap">
+              Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não
+              altera o pão duris.
+            </p>
+          </div>
+          <div class="flex flex-column width-100 bg-grey-6 gap-20 pd-40 rd-right">
+            <h3 class="txt-primary">Login</h3>
+            <form action="" class="flex flex-column gap-20">
+              <input
+                type="email"
+                class="input-form"
+                placeholder="E-mail"
+                required
+              />
+              <div class="width-100 input-icon">
+                <input
+                  type="password"
+                  class="input-form width-100"
+                  id="input-pass"
+                  placeholder="Senha"
+                  required
+                />
+                <img
+                  src="../../src/eye-svgrepo-com.svg"
+                  alt="Icone para mostrar a senha"
+                  id="show-pass"
+                  class="icon btn"
+                />
+              </div>
+              <div class="flex justify-end">
+                <button
+                  class="btn btn-link btn-sm"
+                  data-control-modal="modal-password"
+                >
+                  Esqueceu a senha?
+                </button>
+              </div>
+              <button
+                class="btn flex justify-center btn-primary btn-lg"
+                type="submit"
+              >
+                Entrar
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="/scripts/modal.js"></script>
+    <script src="/scripts/password.js"></script>
+  </body>
+</html>
